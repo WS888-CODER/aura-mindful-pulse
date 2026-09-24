@@ -12,7 +12,7 @@ export type Episode = {
   status: "recorded";
 };
 
-export const initialEpisodes: Episode[] = [
+export const initialEpisodes: [Episode, ...Episode[]] = [
   {
     id: "001",
     date: "2026-09-23",
